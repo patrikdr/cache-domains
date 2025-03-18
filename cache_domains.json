@@ -54,7 +54,7 @@
 			"name": "origin",
 			"description": "CDN for origin",
 			"notes": "Should be enabled for HTTP traffic only or with a HTTPS proxy else origin client download fails",
-			"mixed_content": true,
+			"mixed_content": false,
 			"domain_files": ["origin.txt"]
 		},
 		{
@@ -68,9 +68,9 @@
 			"domain_files": ["renegadex.txt"]
 		},
 		{
-			"name": "riot",
-			"description": "CDN for riot games",
-			"domain_files": ["riot.txt"]
+			#"name": "riot",
+			#"description": "CDN for riot games",
+			#"domain_files": ["riot.txt"]
 		},
 		{
 			"name": "rockstar",
